@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="9" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-07T17:03:12 EET" name="Default suite" finished-at="2025-05-07T17:04:34 EET" duration-ms="81606">
+    <groups>
+    </groups>
+    <test started-at="2025-05-07T17:03:12 EET" name="Default test" finished-at="2025-05-07T17:04:34 EET" duration-ms="81606">
+      <class name="FinalProjectAlmosaferWebSite.FinalProjectAlmosaferWebSite.AppTest">
+        <test-method is-config="true" signature="mySetup()[pri:0, instance:FinalProjectAlmosaferWebSite.FinalProjectAlmosaferWebSite.AppTest@ebb6851]" started-at="2025-05-07T17:03:12 EET" name="mySetup" finished-at="2025-05-07T17:03:19 EET" duration-ms="6176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mySetup -->
+        <test-method signature="CheckWebSiteLanguage(java.lang.String)[pri:1, instance:FinalProjectAlmosaferWebSite.FinalProjectAlmosaferWebSite.AppTest@ebb6851]" started-at="2025-05-07T17:03:19 EET" name="CheckWebSiteLanguage" finished-at="2025-05-07T17:03:19 EET" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Cannot inject @Test annotated Method [CheckWebSiteLanguage] with [class java.lang.String].
+For more information on native dependency injection please refer to https://testng.org/#_dependency_injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Cannot inject @Test annotated Method [CheckWebSiteLanguage] with [class java.lang.String].
+For more information on native dependency injection please refer to https://testng.org/#_dependency_injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:442)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:347)
+at org.testng.internal.Parameters.createParameters(Parameters.java:699)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:885)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:949)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckWebSiteLanguage -->
+        <test-method signature="CheckCurrency()[pri:2, instance:FinalProjectAlmosaferWebSite.FinalProjectAlmosaferWebSite.AppTest@ebb6851]" started-at="2025-05-07T17:03:19 EET" name="CheckCurrency" finished-at="2025-05-07T17:03:19 EET" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckCurrency -->
+        <test-method signature="CheckNumber()[pri:3, instance:FinalProjectAlmosaferWebSite.FinalProjectAlmosaferWebSite.AppTest@ebb6851]" started-at="2025-05-07T17:03:19 EET" name="CheckNumber" finished-at="2025-05-07T17:03:19 EET" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckNumber -->
+        <test-method signature="CheckQutafLogo()[pri:4, instance:FinalProjectAlmosaferWebSite.FinalProjectAlmosaferWebSite.AppTest@ebb6851]" started-at="2025-05-07T17:03:19 EET" name="CheckQutafLogo" finished-at="2025-05-07T17:03:19 EET" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckQutafLogo -->
+        <test-method signature="CheckHotelTabIsNotSelected()[pri:5, instance:FinalProjectAlmosaferWebSite.FinalProjectAlmosaferWebSite.AppTest@ebb6851]" started-at="2025-05-07T17:03:19 EET" name="CheckHotelTabIsNotSelected" finished-at="2025-05-07T17:03:19 EET" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckHotelTabIsNotSelected -->
+        <test-method signature="FlightDepatureDate()[pri:6, instance:FinalProjectAlmosaferWebSite.FinalProjectAlmosaferWebSite.AppTest@ebb6851]" started-at="2025-05-07T17:03:19 EET" name="FlightDepatureDate" finished-at="2025-05-07T17:03:19 EET" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightDepatureDate -->
+        <test-method signature="ReturnDepatureDate()[pri:7, instance:FinalProjectAlmosaferWebSite.FinalProjectAlmosaferWebSite.AppTest@ebb6851]" started-at="2025-05-07T17:03:19 EET" name="ReturnDepatureDate" finished-at="2025-05-07T17:03:19 EET" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReturnDepatureDate -->
+        <test-method signature="ChangeTheWebSiteLanguage()[pri:8, instance:FinalProjectAlmosaferWebSite.FinalProjectAlmosaferWebSite.AppTest@ebb6851]" started-at="2025-05-07T17:03:19 EET" name="ChangeTheWebSiteLanguage" finished-at="2025-05-07T17:03:21 EET" duration-ms="1505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChangeTheWebSiteLanguage -->
+        <test-method signature="RandomlySelectCities()[pri:9, instance:FinalProjectAlmosaferWebSite.FinalProjectAlmosaferWebSite.AppTest@ebb6851]" started-at="2025-05-07T17:03:21 EET" name="RandomlySelectCities" finished-at="2025-05-07T17:04:24 EET" duration-ms="63235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RandomlySelectCities -->
+        <test-method signature="CheckTheResultsIsretrived()[pri:10, instance:FinalProjectAlmosaferWebSite.FinalProjectAlmosaferWebSite.AppTest@ebb6851]" started-at="2025-05-07T17:04:24 EET" name="CheckTheResultsIsretrived" finished-at="2025-05-07T17:04:34 EET" duration-ms="10163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckTheResultsIsretrived -->
+        <test-method is-config="true" signature="myAfterTest()[pri:0, instance:FinalProjectAlmosaferWebSite.FinalProjectAlmosaferWebSite.AppTest@ebb6851]" started-at="2025-05-07T17:04:34 EET" name="myAfterTest" finished-at="2025-05-07T17:04:34 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myAfterTest -->
+      </class> <!-- FinalProjectAlmosaferWebSite.FinalProjectAlmosaferWebSite.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
